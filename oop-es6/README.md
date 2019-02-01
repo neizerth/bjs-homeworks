@@ -335,9 +335,9 @@ __результат__
     
     ![задача 2. Mage.takeDamage](img/2-Mage-takeDamage.result.png)
     
-4. *Dwarf.takeDamage()*: Каждый шестой удар соперника наносит в 2 раза меньше урона при *getLuck()* > 0.5.
+4. *Dwarf.takeDamage( damage )*: Каждый шестой удар соперника наносит в 2 раза меньше урона при *getLuck()* > 0.5.
 
-5. *Demiurge.getDamage()*: При уровне маны > 0, наносимый урон в 1.5 выше при getLuck() > 0.6. 
+5. *Demiurge.getDamage( distance )*: При уровне маны > 0, наносимый урон в 1.5 выше при getLuck() > 0.6. 
 
 ### Критерии выполнения
 
